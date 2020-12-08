@@ -40,15 +40,16 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = f"""
 Hi My Name Is [Julia](https://telegra.ph/file/285b9823cbe63c6826e2a.jpg),
- I'm a group manager bot built in python3, using the python-telegram-bot library, 
- how to use me, read /help to know my full potentials and then head to @JuliaUpdates  
+I'm a group manager bot built in python3, using the python-telegram-bot library, 
+how to use me, read /help to know my full potentials and then head to @JuliaUpdates  
+My source can be found here 
 """
 
-buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
+buttons = [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🌍 ADD ME TO YOUR GROUP 🌍",
+buttons += [[InlineKeyboardButton(text="👀ADD ME TO YOUR GROUP👀",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
