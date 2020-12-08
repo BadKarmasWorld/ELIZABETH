@@ -39,9 +39,9 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`Hi..Welcome` 👀
-`I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
-`I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
+Hi My Name Is [Julia](https://telegra.ph/file/285b9823cbe63c6826e2a.jpg),
+ I'm a group manager bot built in python3, using the python-telegram-bot library, 
+ how to use me, read /help to know my full potentials and then head to @JuliaUpdates  
 """
 
 buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
@@ -63,7 +63,7 @@ buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
 
 
 HELP_STRINGS = f"""
-`Hi.. I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
+Hey there I am [Julia](https://telegra.ph/file/281aaa468756db0769df0.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
