@@ -45,12 +45,13 @@ how to use me, read /help to know my full potentials and then head to @JuliaUpda
 My source can be found here 
 """
 
-buttons = [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
-                                  callback_data="help_back"),
-]]
 
 buttons += [[InlineKeyboardButton(text="👀ADD ME TO YOUR GROUP👀",
                                   url="t.me/MissJuliaBot?startgroup=true"),
+]]
+
+buttons = [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
+                                  callback_data="help_back"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="💾SOURCE CODE",
