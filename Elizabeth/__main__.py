@@ -39,7 +39,7 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hi My Name Is [Julia](https://telegra.ph/file/285b9823cbe63c6826e2a.jpg),
+Hello,My Name Is [Julia](https://telegra.ph/file/285b9823cbe63c6826e2a.jpg),
 I'm a group manager bot built in python3, using the python-telegram-bot library, 
 how to use me, read /help to know my full potentials and then head to @JuliaUpdates  
 My source can be found here 
@@ -54,19 +54,14 @@ buttons = [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💾SOURCE CODE",
-                                  url="https://github.com/P-RINC-E/ELIZABETH"),
-             InlineKeyboardButton(text="SUPPORT GROUP",
-                                  url="https://t.me/JuliaUpdates"),
-]]
 
 buttons += [[InlineKeyboardButton(text="🔐CLOSE THIS MENU🔐",
                                   callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
-Hey there I am [Julia](https://telegra.ph/file/281aaa468756db0769df0.jpg)
-`Click on the buttons below to get documentation about specific modules..`"""
+Hey there I am [Julia](https://telegra.ph/file/285b9823cbe63c6826e2a.jpg)
+`I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with....`"""
 
 
 IMPORTED = {}
@@ -92,7 +87,7 @@ for module_name in ALL_MODULES:
         IMPORTED[imported_module.__mod_name__.lower()] = imported_module
     else:
         raise Exception(
-            "Can't have two modules with the same name! Please change one")
+            "Can't have two modules with the same name! Please change one!!")
 
     if hasattr(imported_module, "__help__") and imported_module.__help__:
         HELPABLE[imported_module.__mod_name__.lower()] = imported_module
@@ -221,8 +216,8 @@ def start_stop(update, context):
 
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "The menu is closed 🔒"
-    buttons = [[InlineKeyboardButton(text="Reopen Menu 🔓",
+    text = "🔒This menu is closed 🔒"
+    buttons = [[InlineKeyboardButton(text="🔒Reopen Menu 🔓",
                                      callback_data="bot_start")]]
 
     update.effective_message.reply_text(
