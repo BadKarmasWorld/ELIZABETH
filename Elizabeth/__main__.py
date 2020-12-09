@@ -45,18 +45,21 @@ how to use me, read /help to know my full potentials and then head to @JuliaUpda
 My source can be found here 
 """
 
-
-buttons += [[InlineKeyboardButton(text="👀ADD ME TO YOUR GROUP👀",
-                                  url="t.me/MissJuliaBot?startgroup=true"),
-]]
-
-buttons += [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
+buttons = [[InlineKeyboardButton(text="👀HELP AND COMMANDS👀",
                                   callback_data="help_back"),
 ]]
 
+buttons += [[InlineKeyboardButton(text="😍ADD ME TO YOUR GROUP😍",
+                                  url="t.me/Elizabeth_TgBot?startgroup=true"),
+]]
 
-buttons += [[InlineKeyboardButton(text="🔐CLOSE THIS MENU🔐",
+             InlineKeyboardButton(text="🌳SUPPORT",
+                                  url="https://t.me/JuliaUpdates"),
+]]
+
+buttons += [[InlineKeyboardButton(text="🔱CLOSE THIS MENU 🔱",
                                   callback_data="close_menu")]]
+
 
 
 HELP_STRINGS = f"""
