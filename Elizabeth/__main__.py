@@ -50,7 +50,7 @@ buttons += [[InlineKeyboardButton(text="👀ADD ME TO YOUR GROUP👀",
                                   url="t.me/MissJuliaBot?startgroup=true"),
 ]]
 
-buttons = [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
+buttons += [[InlineKeyboardButton(text="👉🏻MY COMMANDS👈🏻",
                                   callback_data="help_back"),
 ]]
 
