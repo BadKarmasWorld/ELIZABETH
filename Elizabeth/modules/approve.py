@@ -1,7 +1,6 @@
-from Elizabeth import CMD_HELP
 import os
 from Elizabeth import tbot
-from julia import DATABASE_URL
+from Elizabeth import DATABASE_URL
 from Elizabeth.events import register
 from telethon import types
 from telethon.tl import functions
