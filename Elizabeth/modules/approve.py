@@ -1,9 +1,4 @@
-import os
-from Elizabeth import tbot
-from Elizabeth import DATABASE_URL
-from Elizabeth.events import register
-from telethon import types
-from telethon.tl import functions
+
 
 
 
