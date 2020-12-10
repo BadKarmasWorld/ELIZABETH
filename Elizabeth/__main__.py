@@ -44,21 +44,22 @@ I'm a group manager bot built in python3, using the python-telegram-bot library,
 how to use me, read /help to know my full potentials and then head to @JuliaUpdates  
 My source can be found here 
 """
-
-buttons = [[InlineKeyboardButton(text="👀HELP AND COMMANDS👀",
+buttons = [[InlineKeyboardButton(text="🌀MY HELP AND COMMANDS🌀 ",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="😍ADD ME TO YOUR GROUP😍",
+buttons += [[InlineKeyboardButton(text="👀ADD ME TO YOUR GROUP👀",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
-             InlineKeyboardButton(text="🌳SUPPORT",
+buttons += [[InlineKeyboardButton(text="⚜️MY SUPPORT GROUP⚜️",
                                   url="https://t.me/JuliaUpdates"),
+           
 ]]
 
-buttons += [[InlineKeyboardButton(text="🔱CLOSE THIS MENU 🔱",
+buttons += [[InlineKeyboardButton(text="🔐CLOSE THIS MENU🔐",
                                   callback_data="close_menu")]]
+
 
 
 
