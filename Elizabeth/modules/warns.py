@@ -637,22 +637,22 @@ def __chat_settings__(chat_id, user_id):
 __help__ = """
  If you're looking for a way to automatically warn users when they say certain things, use the /addwarn command.
  An example of setting multiword warns filter:
- ➩ `/addwarn "very angry" This is an angry user`
+ 👉🏻 `/addwarn "very angry" This is an angry user`
  This will automatically warn a user that triggers "very angry", with reason of 'This is an angry user'.
  An example of how to set a new multiword warning:
 `/warn @user Because warning is fun`
- ➩ /warns <userhandle>: Gets a user's number, and reason, of warnings.
- ➩ /warnlist: Lists all current warning filters
-*Admin only:*
- ➩ /warn <userhandle>: Warns a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
- ➩ /resetwarn <userhandle>: Resets the warnings for a user. Can also be used as a reply.
- ➩ /rmwarn <userhandle>: Removes latest warn for a user. It also can be used as reply.
- ➩ /unwarn <userhandle>: Same as /rmwarn
- ➩ /addwarn <keyword> <reply message>: Sets a warning filter on a certain keyword. If you want your keyword to \
+ 👉🏻 /warns <userhandle>: Gets a user's number, and reason, of warnings.
+ 👉🏻 /warnlist: Lists all current warning filters
+*Chat Owner / Admin / Mod  only:*
+ 👉🏻 /warn <userhandle>: Warns a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
+ 👉🏻 /resetwarn <userhandle>: Resets the warnings for a user. Can also be used as a reply.
+ 👉🏻 /rmwarn <userhandle>: Removes latest warn for a user. It also can be used as reply.
+ 👉🏻 /unwarn <userhandle>: Same as /rmwarn
+ 👉🏻 /addwarn <keyword> <reply message>: Sets a warning filter on a certain keyword. If you want your keyword to \
 be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is an angry user`.
- ➩ /nowarn <keyword>: Stops a warning filter
- ➩ /warnlimit <num>: Sets the warning limit
- ➩ /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just kick.
+ 👉🏻 /nowarn <keyword>: Stops a warning filter
+ 👉🏻 /warnlimit <num>: Sets the warning limit
+ 👉🏻 /strongwarn <on/yes/off/no>: If set to on, exceeding the warn limit will result in a ban. Else, will just kick.
 """
 
 __mod_name__ = "❌Warns❌"
