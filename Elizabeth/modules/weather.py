@@ -124,7 +124,7 @@ def weather(update, context):
             return
 
 
-__mod_name__ = "Weather"
+__mod_name__ = "🌨Weather🌨"
 
 WEATHER_HANDLER = DisableAbleCommandHandler("weather", weather, pass_args=True)
 
